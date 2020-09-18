@@ -1,8 +1,8 @@
 /* RUTA COMPONENTE AUTHROUTER */
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { LoginScreen } from '../auth/LoginScreen'
-import { RegisterScreen } from '../auth/RegisterScreen'
+import { LoginScreen } from '../components/auth/LoginScreen'
+import { RegisterScreen } from '../components/auth/RegisterScreen'
 
 export const AuthRouter = () => {
     return (
